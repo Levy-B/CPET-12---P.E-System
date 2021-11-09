@@ -1,0 +1,18 @@
+.Mainlogin{
+    text-align: center;
+    margin-top: 10%;
+}
+body{background-color: maroon;}
+.Logindesign{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+.design{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 50px;
+    width: 50%;
+}
