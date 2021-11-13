@@ -91,3 +91,30 @@ a{
 .backarrow{
     display:flex;
 }
+
+
+
+
+/*Return Css Design*/
+
+.return{
+    padding: 20px;
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 13%;
+}
+
+
+/*Blacklisted Css Design*/
+
+.blacklisted{
+    padding: 20px;
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 13%;
+
+}
