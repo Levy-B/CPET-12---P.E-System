@@ -118,3 +118,22 @@ a{
     margin-top: 13%;
 
 }
+
+/*Total Sales Css Design*/
+.salescontainer{
+    padding: 20px;
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+/*Total Sales Inventory Design*/
+.inventorycontainer{
+    padding: 20px;
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 10%;
+}
