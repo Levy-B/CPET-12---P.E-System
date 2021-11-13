@@ -1,54 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Borrow</title>
 </head>
 <body>
-  <input type="button" value="Back">
-    <h1>Borrow</h1>
-  <form action="Studentsinfo">
-    <table>
-      <tr>
-        <td>
-          First Name:
-        </td>
-        <td>
-          <input type="Firstname" placeholder="Juan" name="" id="">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Last Name:
-        </td>
-        <td>
-            <input type="Lastname" placeholder="Dela  Cruz" name="" id="">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Course:
-        </td>
-        <td>
-          <input type="Course" placeholder="BET-COET" name="" id="">
-        </td>
-        </tr>
-        <tr>
-          <td>
-            Id Number:
-          </td>
-          <td>
-              <input type="Idnumber" placeholder="TUPC-18-0001"" id="">
-          </td>
-          </tr>
-          
-      <td>
-        <input type="Button" name="Done" value="Done">
-      </td>
+  <div class = "backarrow">
+     <img class = "arrow"src="images/bluearrow.png">
+     <input type="button" value="Back">
+  </div>
+  <center> 
+    <div class="borrowcontainer">
+        <div class = "borrowform">
+           <h1>Borrow</h1>
+           <form action="Studentsinfo">
+              <label>First Name</label>
+                      <input type="Firstname" placeholder="Juan" name="" id="">
+              <br>
+              <br>
+                 <label>Last Name</label>
+                        <input type="Lastname" placeholder="Dela  Cruz" name="" id="">
+              <br>
+              <br>
+                 <label class="courseinput">Course</label>
+                      <input type="Course" placeholder="BET-COET" name="" id="">
+              <br>
+              <br>
+                 <label>ID Number</label>
+                          <input type="Idnumber" placeholder="TUPC-18-0001" id="">
+              <br>
+              <br>
+                    <button class = "btn" type="Button" name="Done" value="Done">Done</button>
+              <br>
+              <br>
+          </form>
 
-    </table>
-  </form>
+        </div>
+         
+    </div>
+    
+  </center>
 </body>
 </html>
